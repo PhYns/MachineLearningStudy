@@ -89,16 +89,16 @@ def getAverage(die, numRolls, numTrials):
 #print(getAverage(Die([1,2,3,4,5,6,6,6,7]), 500, 10000))
 
 # Test 1
-print("Teste 1",getAverage(Die([1]), 10, 1000))
+print("Test 1",getAverage(Die([1]), 10, 1000))
 
 # Test 2
-print("Teste 2",getAverage(Die([1,1]), 10, 1000))
+print("Test 2",getAverage(Die([1,1]), 10, 1000))
 
 # Test 3
-print("Teste 3",getAverage(Die([1,2,3,4,5,6]), 50, 1000))
+print("Test 3",getAverage(Die([1,2,3,4,5,6]), 50, 1000))
 
 # Test 4
-print("Teste 4",getAverage(Die([1,2,3,4,5,6,6,6,7]), 50, 1000))
+print("Test 4",getAverage(Die([1,2,3,4,5,6,6,6,7]), 50, 1000))
 
 # Test 5
-print("Teste 5",getAverage(Die([1,2,3,4,5,6,6,6,7]), 1, 1000))
+print("Test 5",getAverage(Die([1,2,3,4,5,6,6,6,7]), 1, 1000))
